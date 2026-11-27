@@ -1,0 +1,6 @@
+.diagrams/
+t/servroot/
+build/
+deps/perl5/
+deps/.perl5.stamp
+AGENTS.md

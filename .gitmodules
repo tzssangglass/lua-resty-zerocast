@@ -1,0 +1,3 @@
+[submodule "deps/test-nginx"]
+	path = deps/test-nginx
+	url = https://github.com/openresty/test-nginx.git
