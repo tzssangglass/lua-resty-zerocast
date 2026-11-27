@@ -1,0 +1,24 @@
+root                     = true
+
+[*]
+end_of_line              = lf
+insert_final_newline     = true
+trim_trailing_whitespace = true
+charset                  = utf-8
+
+[*.lua]
+indent_style             = space
+indent_size              = 2
+
+# Test::Nginx files carry "# vim:set ft=perl ts=4 sw=4 et:"; keep the two in sync.
+[*.t]
+indent_style             = space
+indent_size              = 4
+
+[Makefile]
+indent_style             = tab
+
+# Unified diffs carry context/blank lines verbatim; trimming breaks them.
+[*.patch]
+trim_trailing_whitespace = false
+insert_final_newline = unset
